@@ -1,0 +1,49 @@
+# Creature Battle Project (OOP + Git Branching Practice)
+
+This project is designed to help me learn **object-oriented programming** in Python — especially **inheritance** — while also practicing key **Git concepts** like branching, merging, conflict resolution, and version history.
+
+I will begin with a base class (`Creature`) and create additional subclasses on separate Git branches to simulate a real development workflow.
+
+---
+
+## Learning Objectives
+
+### Python / OOP
+- Understand and implement **classes**
+- Use **inheritance** to extend behaviors
+- Override and extend methods (e.g., `attack()`)
+- Practice writing simple test code in `main`
+
+### Git / Version Control
+- Create and switch branches
+- Merge branches into `main`
+- Resolve merge conflicts
+- View commit history (`git log --graph --all`)
+
+---
+
+## Project Structure
+
+```
+oop_creature_code/
+│
+├── creature_simulation.py   # Base class + subclasses
+└── README.md
+```
+
+## How to Test and Run
+
+Make sure Python 3 is installed, then run this from the project folder:
+
+```
+python creature_simulation.py
+```
+
+The test code at the bottom of `creature_simulation.py` runs automatically and prints the results for:
+
+- `Creature` (base class)
+- `FlyingCreature`
+- `SwimmingCreature`
+- `FireCreature`
+
+Each test prints the expected value next to the actual value so you can check that it matches.
